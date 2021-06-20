@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <navbar/>
+  <div class="w-full">
     <intro/>
     <location/>
     <features/>
@@ -14,11 +13,7 @@
 </template>
 
 <script>
-import Location from '../components/Location.vue'
-import Testimony from '../components/Testimony.vue'
-
 export default {
-  components: { Location, Testimony },
 
 }
 </script>
